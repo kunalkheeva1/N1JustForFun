@@ -1,3 +1,4 @@
+import kannu.Nav;
 import kunal.Kheeva;
 
 import java.util.Arrays;
@@ -9,5 +10,7 @@ public class JustForFun {
 
         Kheeva kk = new Kheeva();
         kk.method1();
+        Nav nk = new Nav();
+        nk.method2();
 
     }    }
