@@ -1,16 +1,16 @@
 
 
 public class JustForFun {
-    public static void main(String args[]){
+    public static void main(String []args){
         int i= 1, sum=0;
 
-        while (i<=10){
+        while (true)
+            System.out.println(i);
 
-        sum= sum+i;
 
 
-            System.out.println(sum);
-        }
+
+
 
 
 
