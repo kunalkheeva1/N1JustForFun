@@ -1,16 +1,18 @@
-import kannu.Nav;
-import kunal.Kheeva;
 
-import java.util.Arrays;
-import java.util.Scanner;
 
 public class JustForFun {
+    public static void main(String args[]){
+        int i= 1, sum=0;
 
-    public static void main(String[] args) {
+        while (i<=10){
 
-        Kheeva kk = new Kheeva();
-        kk.method1();
-        Nav nk = new Nav();
-        nk.method2();
+        sum= sum+i;
 
-    }    }
+
+            System.out.println(sum);
+        }
+
+
+
+    }
+}
