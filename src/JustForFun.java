@@ -2,10 +2,16 @@
 
 public class JustForFun {
     public static void main(String []args){
-        int i= 1, sum=0;
+        final int a= 1, b =0;
 
-        while (true)
-            System.out.println(i);
+
+        do{
+            System.out.println("kheeva");
+
+
+        }while(a<b);
+        System.out.println("kunal");
+
 
 
 
