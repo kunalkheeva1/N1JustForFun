@@ -1,24 +1,15 @@
 
 
 public class JustForFun {
-    public static void main(String []args){
-        final int a= 1, b =0;
 
+    double kk(double k, double l) {
+        double sum = (k + l) / 2;
 
-        do{
-            System.out.println("kheeva");
+        return sum;
 
+    }
+    public static void main(String []args) {
 
-        }while(a<b);
-        System.out.println("kunal");
-
-
-
-
-
-
-
-
-
+        System.out.println(new JustForFun().kk(11,13));
     }
 }
