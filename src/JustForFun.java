@@ -13,7 +13,8 @@ public class JustForFun {
     kk[0]= new JustForFun(1, "Kheeva");
     kk[1]= new JustForFun(2, "Kunal");
 
-      System.out.println("Your name and roll numbers are"+ kk);
+    for(int i=0; i<= kk.length; i++){
+      System.out.println("Your name and roll numbers are"+ kk[i].Name + " "+ kk[i].rollNo);
 
   }
-}
+}}
