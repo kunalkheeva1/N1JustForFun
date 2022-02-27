@@ -1,23 +1,19 @@
 
 
 public class JustForFun {
-  public int rollNo;
-  public String Name;
-  JustForFun(int rollNo, String Name ){
-      this.Name = Name;
-      this.rollNo= rollNo;
 
+  public static int[] m1() {
+
+
+      return new int[]{1, 3, 4, 5};}
+
+
+    public static void main (String[]args){
+      int[] kk = m1();
+      for(int i=0; i<kk.length; i++){
+        System.out.println(kk[i]);
+
+
+    }
   }
-  public static void main(String []args) {
-    JustForFun [] kk= new JustForFun[4];
-    kk[0]= new JustForFun(1, "Kheeva");
-    kk[1]= new JustForFun(2, "Kunal");
-      kk[2]= new JustForFun(3, "Kheeva");
-      kk[3]= new JustForFun(4, "Kunal");
-
-
-      for(int i=0; i<= kk.length; i++){
-      System.out.println("Your name and roll numbers are "+ kk[i].Name + " "+ kk[i].rollNo);
-
-  }
-}}
+}
